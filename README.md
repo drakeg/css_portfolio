@@ -6,3 +6,4 @@ For the Animated Progress Bar Using Pie Chart, you'll need to also download Easy
 Thank you YouTube Channels!
 * [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
 * [Dark Code](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
+* [DesignCourse](https://www.youtube.com/user/DesignCourse)
