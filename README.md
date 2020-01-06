@@ -7,3 +7,4 @@ Thank you YouTube Channels!
 * [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
 * [Dark Code](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
 * [DesignCourse](https://www.youtube.com/user/DesignCourse)
+* [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q)
