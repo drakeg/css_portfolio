@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css_js_tabs.css">
+</head>
+<body>
+    <div class="container">
+        <div class="icon">
+            <div class="iconBx active" data-id="content1">
+                <img src="static/google.png" alt="Google">
+            </div>
+            <div class="iconBx" data-id="content2">
+                <img src="static/facebook.png" alt="facebook">
+            </div>
+            <div class="iconBx" data-id="content3">
+                <img src="static/twitter.png" alt="twitter">
+            </div>
+            <div class="iconBx" data-id="content4">
+                <img src="static/yahoo.png" alt="yahoo!">
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentBx active" id="content1">
+                <div>
+                    <div class="text">
+                        <h2>Google Text</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, natus ipsam numquam aliquam quasi animi facilis eum optio repellat aut soluta, molestias sapiente recusandae. Eveniet quas quidem facere cumque maiores?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contentBx" id="content2">
+                <div>
+                    <div class="text">
+                        <h2>Facebook Text</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, natus ipsam numquam aliquam quasi animi facilis eum optio repellat aut soluta, molestias sapiente recusandae. Eveniet quas quidem facere cumque maiores?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contentBx" id="content3">
+                <div>
+                    <div class="text">
+                        <h2>Twitter Text</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, natus ipsam numquam aliquam quasi animi facilis eum optio repellat aut soluta, molestias sapiente recusandae. Eveniet quas quidem facere cumque maiores?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contentBx" id="content4">
+                <div>
+                    <div class="text">
+                        <h2>Yahoo! Text</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, natus ipsam numquam aliquam quasi animi facilis eum optio repellat aut soluta, molestias sapiente recusandae. Eveniet quas quidem facere cumque maiores?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var iconBx = document.querySelectorAll('.iconBx');
+        var contentBx = document.querySelectorAll('.contentBx');
+
+        for (var i=0;i<iconBx.length; i++) {
+            iconBx[i].addEventListener('mouseover', function(){
+                for (var i=0; i<contentBx.length; i++) {
+                    contentBx[i].className='contentBx';
+                }
+                document.getElementById(this.dataset.id).className = 'contentBx active';
+
+                for (var i=0; i<iconBx.length; i++) {
+                    iconBx[i].className='iconBx';
+                }
+                this.className= 'iconBx active';
+            })
+        }
+    </script>
+</body>
+</html>
