@@ -8,3 +8,4 @@ Thank you YouTube Channels!
 * [Dark Code](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
 * [DesignCourse](https://www.youtube.com/user/DesignCourse)
 * [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q)
+* [Coding Nepal](https://www.youtube.com/channel/UCk7xIEmd3MeyhIu2StLX5yA)
