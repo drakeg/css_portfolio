@@ -53,6 +53,7 @@ footer ul {
     position: absolute;
     top: 50%;
     left: 25%;
+    transform: translateX(-50%);
     margin: 0;
     padding: 0;
     display: flex;
