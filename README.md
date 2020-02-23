@@ -1,4 +1,6 @@
 # CSS Portfolio
+[![codebeat badge](https://codebeat.co/badges/b2e05dab-46fc-495a-81b0-927bc8901e3d)](https://codebeat.co/projects/github-com-drakeg-flappy_bird_ai-master)
+
 Some random CSS/HTML/JS items to use in projects from various YouTube resources
 
 For the Animated Progress Bar Using Pie Chart, you'll need to also download Easy Pie Chart from https://github.com/rendro/easy-pie-chart and use the JQuery version.
